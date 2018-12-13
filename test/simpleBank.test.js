@@ -1,6 +1,6 @@
 var SimpleBank = artifacts.require("./SimpleBank.sol");
 
-contract('SimpleBank', function(accounts) {
+contract('SimpleBank', function(accounts) { 
 
   const owner = accounts[0]
   const alice = accounts[1];
